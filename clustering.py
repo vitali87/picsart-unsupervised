@@ -14,7 +14,7 @@ kmeans = KMeans(n_clusters=3, random_state=0)
 
 kmeans.fit(X)
 
-kmeans.labels_
+print(kmeans.labels_)
 
 X_pred = scaler.transform([[4, 3, 1], [20, 100, 50]])
 kmeans.predict(X_pred)
